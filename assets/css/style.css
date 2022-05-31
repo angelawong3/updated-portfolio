@@ -30,6 +30,8 @@ span {
 
 .heading {
   color: var(--army-green);
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .btn {
@@ -39,7 +41,27 @@ span {
 
 .btn:hover {
   text-transform: uppercase;
-  color: var(--cultured);
+  color: var(--manatee);
+}
+
+.project-name {
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--space-cadet);
+  text-decoration: underline;
+}
+
+.card-text {
+  color: var(--space-cadet);
+}
+
+.project-small-card {
+  width: 300px;
+  opacity: 0.8;
+}
+
+.project-small-card:hover {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 .footer {
@@ -48,17 +70,18 @@ span {
   text-align: center;
 }
 
-#about-me {
-  font-weight: bolder;
-  font-size: larger;
-}
-
 #my-pic {
   width: 220px;
 }
 
 #money-mail {
-  width: 300px;
+  width: 380px;
+  opacity: 0.8;
+}
+
+#money-mail:hover {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 @media screen and (max-width: 768px) {

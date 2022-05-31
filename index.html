@@ -8,12 +8,9 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+Display:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Angela's Portfolio</title>
   </head>
@@ -21,7 +18,7 @@
   <body>
     <header>
       <!-- header nav bar -->
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <a class="navbar-brand text-white my-name">Angela WONG</a>
         <button
           class="navbar-toggler"
@@ -40,7 +37,7 @@
               <a class="nav-link" href="#about-me"><span>About Me</span></a>
             </li>
             <li class="nav-item p-2 zoom">
-              <a class="nav-link" href="#my-project"
+              <a class="nav-link" href="#my-projects"
                 ><span>My Projects</span></a
               >
             </li>
@@ -54,6 +51,8 @@
 
     <main>
       <!-- about me section -->
+      <div class="p-5"></div>
+      <div class="p-2">
       <div class="card text-center">
         <div id="about-me" class="card-header heading">ABOUT ME</div>
         <div class="card-body">
@@ -87,42 +86,131 @@
           >
         </div>
       </div>
+      </div>
       <!-- my projects section -->
       <!-- big card for the project -->
-        <div class="col-sm-12">
-          <div class="card">
+        <div class="col-sm-12 p-2">
+          <div class="card text-center">
+            <div id="my-projects" class="card-header heading">MY PROJECTS</div>
             <div class="card-body">
-              <h5 class="card-title">Project - MoneyMail</h5>
+              <h5 class="card-title project-name">Project - MoneyMail</h5>
               <div class="row">
-                <div class="col-sm-6"><img id="money-mail" src="./assets/images/work-pj-moenymail.jpg" alt="project Moneymail"/></div>
+                <div class="col-sm-6">
+                  <a
+                  href="https://angelawong3.github.io/project-moneymail/"
+                  target="_blank"
+                >
+                <img id="money-mail" src="./assets/images/work-pj-moenymail.jpg" alt="project Moneymail"/></div>
+              </a>
                 <div class="col-sm-6"><p class="card-text">content</p></div>
               </div>
-              <a href="#" class="btn btn-primary">GitHub repo</a>
             </div>
           </div>
           <!-- smaller cards -->
       <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
+        <!-- card 1 -->
+        <div class="col-sm-6 pt-2">
+          <div class="card text-center">
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title project-name">Weather Dashboard</h5>
+              <a
+              href="https://angelawong3.github.io/weather-dashboard/"
+              target="_blank"
+            >
+            <img id="weather-dashboard" class="project-small-card" src="./assets/images/work-weather-dashboard.png" alt="weather dashboard"/>
+          </a>
               <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                content
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="card">
+        <!-- card 2 -->
+        <div class="col-sm-6 pt-2">
+          <div class="card text-center">
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title project-name">Code Quiz</h5>
+              <a
+              href="https://angelawong3.github.io/code-quiz/"
+              target="_blank"
+            >
+            <img id="code-quiz" class="project-small-card" src="./assets/images/work-code-quiz.png" alt="code quiz"/>
+          </a>
               <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                content
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- card 3 -->
+        <div class="col-sm-6 pt-2">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title project-name">Password Generator</h5>
+              <a
+              href="https://angelawong3.github.io/password-generator/"
+              target="_blank"
+            >
+            <img id="password-generator" class="project-small-card" src="./assets/images/work-pw-gen.jpg" alt="password generator"/>
+          </a>
+              <p class="card-text">
+                content
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="col-sm-6 pt-2">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title project-name">Day Planner</h5>
+              <a
+              href="https://angelawong3.github.io/day-planner/"
+              target="_blank"
+            >
+            <img id="day-planner" class="project-small-card" src="./assets/images/work-day-planner.png" alt="day planner"/>
+          </a>
+              <p class="card-text">
+                content
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- card 5 -->
+        <div class="col-sm-6 pt-2">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title project-name">Fan page for Grogu</h5>
+              <a
+              href="https://angelawong3.github.io/my-first-repo/"
+              target="_blank"
+            >
+            <img id="grogu" class="project-small-card" src="./assets/images/work-grogu.png" alt="fan page for Grogu"/>
+          </a>
+              <p class="card-text">
+                content
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card 6 -->
+        <div class="col-sm-6 pt-2">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title project-name">Code Refactoring</h5>
+              <a
+              href="https://angelawong3.github.io/code-refactoring/"
+              target="_blank"
+            >
+            <img id="code-refactoring" class="project-small-card" src="./assets/images/work-refactor.png" alt="code refactoring"/>
+          </a>
+              <p class="card-text">
+                content
+              </p>
             </div>
           </div>
         </div>
