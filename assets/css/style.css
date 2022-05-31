@@ -57,6 +57,10 @@ span {
   width: 220px;
 }
 
+#money-mail {
+  width: 300px;
+}
+
 @media screen and (max-width: 768px) {
 }
 
