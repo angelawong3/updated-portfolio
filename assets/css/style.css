@@ -64,6 +64,22 @@ span {
   opacity: 1;
 }
 
+li {
+  list-style-type: none;
+}
+
+.contact-me-li {
+  box-shadow: inset 0 0 0 0 white;
+  color: var(--army-green);
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-me-li:hover {
+  box-shadow: inset 100px 0 0 0 var(--army-green);
+  color: var(--cultured);
+  text-decoration: none;
+}
+
 .footer {
   padding: 30px;
   clear: both; /* no other element takes up space on the left and right side */
