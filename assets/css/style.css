@@ -7,15 +7,58 @@
   --pale-spring-bud: #dde5b6ff;
 }
 
-* {
-  /* Padding and border are included in the width and height */
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+nav {
+  background-color: var(--army-green);
+}
+
+span {
+  color: var(--pale-spring-bud);
+}
+
+.my-name {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.navbar-toggler {
+  background-color: var(--cultured);
+}
+
+.zoom:hover {
+  text-transform: uppercase;
+}
+
+.heading {
+  color: var(--army-green);
+}
+
+.btn {
+  background-color: var(--army-green);
+  color: var(--pale-spring-bud);
+}
+
+.btn:hover {
+  text-transform: uppercase;
+  color: var(--cultured);
 }
 
 .footer {
   padding: 30px;
   clear: both; /* no other element takes up space on the left and right side */
   text-align: center;
+}
+
+#about-me {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#my-pic {
+  width: 220px;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 596px) {
 }

@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,9 +19,87 @@
   </head>
 
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand text-white my-name">Angela WONG</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item p-2 zoom">
+              <a class="nav-link" href="#about-me"><span>About Me</span></a>
+            </li>
+            <li class="nav-item p-2 zoom">
+              <a class="nav-link" href="#my-project"
+                ><span>My Projects</span></a
+              >
+            </li>
+            <li class="nav-item p-2 zoom">
+              <a class="nav-link" href="#contact-me"><span>Contact Me</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="card text-center">
+        <div id="about-me" class="card-header heading">ABOUT ME</div>
+        <div class="card-body">
+          <h6 class="card-title">Hello! I am Angela. :)</h6>
+          <img
+            id="my-pic"
+            src="./assets/images/about-me.jpg"
+            alt="my profile picture"
+          />
+          <p class="card-text ml-5 mr-5 pl-5 pr-5">
+            An organised, creative, and reliable full-stack web developer with
+            skills in HTML, CSS, and JavaScript. Find doing web development
+            challenging yet satisfying. Feel a sense of accomplishment while
+            doing so.
+          </p>
+          <p class="card-text ml-5 mr-5 pl-5 pr-5">
+            Fluent in English, Cantonese, and Mandarin. Experience in
+            administrative and customer service with achieving zero customer
+            complaints and satisfied an average of over 50 citizens a day.
+            Ability to brainstorm, cultivate and share ideas. Delivering at pace
+            without compromising quality. Strive to work well under pressure.
+            Happy to work as a team as combined skills make one awesome whole.
+          </p>
+          <a href="./assets/document/angela-wong-cv.pdf" class="btn"
+            >Click to download my CV</a
+          >
+        </div>
+        <div class="card-footer text-muted">2 days ago</div>
+      </div>
+    </main>
     <!-- Footer -->
     <footer class="footer">
       <p>&copy; 2022 Angela Wong</p>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
