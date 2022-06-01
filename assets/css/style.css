@@ -15,6 +15,10 @@ span {
   color: var(--pale-spring-bud);
 }
 
+li {
+  list-style-type: none;
+}
+
 .my-name {
   font-size: x-large;
   font-weight: bolder;
@@ -50,7 +54,12 @@ span {
   text-decoration: underline;
 }
 
+.project-card {
+  height: 330px;
+}
+
 .card-text {
+  padding-top: 10px;
   color: var(--space-cadet);
 }
 
@@ -62,10 +71,6 @@ span {
 .project-small-card:hover {
   transform: scale(1.1);
   opacity: 1;
-}
-
-li {
-  list-style-type: none;
 }
 
 .contact-me-li {
