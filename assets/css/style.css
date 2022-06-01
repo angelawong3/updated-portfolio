@@ -58,7 +58,7 @@ li {
 }
 
 .project-card {
-  height: 350px;
+  height: 400px;
 }
 
 .card-text {
@@ -67,7 +67,7 @@ li {
 }
 
 .project-small-card {
-  width: 320px;
+  width: 300px;
   height: 180px;
   opacity: 0.8;
 }
