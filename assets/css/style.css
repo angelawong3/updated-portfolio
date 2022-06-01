@@ -5,6 +5,8 @@
   --cultured: #edf2f4ff;
   --army-green: #41521fff;
   --pale-spring-bud: #dde5b6ff;
+  --pastel-pink: #e5989bff;
+  --english-lavender: #b5838dff;
 }
 
 nav {
@@ -38,14 +40,15 @@ li {
   font-size: larger;
 }
 
-.btn {
-  background-color: var(--army-green);
-  color: var(--pale-spring-bud);
+.btn-cv {
+  background-color: var(--pastel-pink);
+  color: var(--cultured);
 }
 
-.btn:hover {
+.btn-cv:hover {
   text-transform: uppercase;
-  color: var(--manatee);
+  background-color: var(--english-lavender);
+  color: var(--cultured);
 }
 
 .project-name {
@@ -55,7 +58,7 @@ li {
 }
 
 .project-card {
-  height: 330px;
+  height: 350px;
 }
 
 .card-text {
@@ -64,7 +67,8 @@ li {
 }
 
 .project-small-card {
-  width: 300px;
+  width: 320px;
+  height: 180px;
   opacity: 0.8;
 }
 
@@ -73,14 +77,34 @@ li {
   opacity: 1;
 }
 
+.btn-repo1 {
+  background-color: var(--army-green);
+  color: var(--pale-spring-bud);
+}
+
+.btn-repo1:hover {
+  text-transform: uppercase;
+  color: var(--manatee);
+}
+
+.btn-repo2 {
+  background-color: var(--pale-spring-bud);
+  color: var(--army-green);
+}
+
+.btn-repo2:hover {
+  text-transform: uppercase;
+  color: var(--manatee);
+}
+
 .contact-me-li {
   box-shadow: inset 0 0 0 0 white;
-  color: var(--army-green);
+  color: var(--pastel-pink);
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .contact-me-li:hover {
-  box-shadow: inset 100px 0 0 0 var(--army-green);
+  box-shadow: inset 100px 0 0 0 var(--english-lavender);
   color: var(--cultured);
   text-decoration: none;
 }
