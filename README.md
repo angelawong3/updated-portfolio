@@ -8,6 +8,8 @@
 My portfolio with my bio, CV, projects, and contact info.
 ```
 
+![UI](./assets/images/app-ui.png)
+
 ### Steps:
 
 ### Technologies used
